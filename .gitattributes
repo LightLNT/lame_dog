@@ -1,0 +1,11 @@
+# The published USD composition layers and example checkpoints are small enough for Git.
+# Avoid Git LFS so a plain clone contains everything required for playback.
+*.usd binary
+*.usdc binary
+*.usdz binary
+*.pt binary
+*.jit binary
+*.hdf5 binary
+
+*.bat text eol=crlf
+*.sh text eol=lf
